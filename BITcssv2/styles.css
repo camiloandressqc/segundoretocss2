@@ -1,0 +1,80 @@
+* {
+    margin: 35;
+    padding: 35;
+    box-sizing: border-box;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  
+    body{
+
+    /* Color de fondo de la pagina  */
+    background-color: blanchedalmond
+    /* imagen de fondo */
+    
+   
+
+    /* para mantener las propiedades de una imagen de fondo = background-size:cover; */
+   
+}
+
+/* aca edito clases */
+
+h1 {
+    color: rgb(255, 255, 255);
+  }
+  
+  header {
+    background-color: rgba(67, 122, 185, 0.175);
+    backdrop-filter: blur(4px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    top: 0;
+    padding: 0px 30px;
+  }
+  
+  .navbar {
+    display: flex;
+    gap: 15px;
+    list-style: none;
+  }
+  
+  .navbar li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+  }
+  
+  main {
+    padding: 0px 30px;
+  }
+  
+  
+  input {
+    border-radius: 5px;
+    border: 2px solid rgb(72, 132, 167);
+  }
+  
+  footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    padding: 20px;
+    background-color: rgba(54, 54, 54, 0.175);
+    backdrop-filter: blur(4px);
+  }
+  
+
+#-elementoedad {
+    color: rgb(42, 133, 47);
+}
+
+
+#-elementodeparrafo {
+    color: rgb(68, 68, 68);
+  }
